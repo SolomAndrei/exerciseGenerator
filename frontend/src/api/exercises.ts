@@ -14,8 +14,9 @@ export async function postExercise(input: ExerciseInput) {
     });
     const json = await response.json();
     if (!response.ok) {
-        const errorMessage = json.error || json.message || 'Unknown error from server';
-        throw new Error(errorMessage);
+        const { error, message } = json;
+        const details = [error, message].filter(Boolean).join(' | ') || 'Unknown error from server';
+        throw new Error(details);
     }
     return json;
 }
