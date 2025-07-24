@@ -1,0 +1,53 @@
+{
+    "header": {
+        "logo": "מחולל תרגילים",
+        "langEn": "אנגלית",
+        "langHe": "עברית"
+    },
+    "footer": {
+        "text": "© 2025 מחולל תרגילים מאת Andrei"
+    },
+    "form": {
+        "topicLabel": "נושא",
+        "subtopicLabel": "נושא משני",
+        "generateBtn": "צור תרגילים",
+        "clearCacheBtn": "מחק את המבחן הנוכחי",
+        "topicPlaceholder": "הכנס נושא",
+        "subtopicPlaceholder": "הכנס נושא משני",
+        "dataReceived": "הנתונים התקבלו",
+        "pressStartTestBtn": "לחץ על כפתור 'התחל מבחן'"
+    },
+    "navigation": {
+        "formTab": "טופס",
+        "startTestBtn": "התחל מבחן",
+        "history": "היסטוריה",
+        "stats": "סטטיסטיקות"
+    },
+    "test": {
+        "regenerate": "לחדש",
+        "noExercisesMessage": "אין נתוני תרגילים. אנא צור תרגילים קודם.",
+        "questionProgress": "שאלה {{current}} מתוך {{total}}",
+        "next": "הבא",
+        "prev": "הקודם",
+        "explanationLabel": "הסבר:",
+        "difficulty": {
+            "beginner": "מתחיל",
+            "intermediate": "בינוני",
+            "expert": "מומחה"
+        }
+    },
+    "history": {
+        "title": "ניסיונות קודמים",
+        "noGenerations": "לא נמצאו ניסיונות קודמים."
+    },
+    "statistics": {
+        "generatedOn": "נוצר ב־",
+        "completion": "הושלם",
+        "accuracy": "נכון",
+        "levelNames": {
+            "beginner": "מתחילים",
+            "intermediate": "בינוני",
+            "expert": "מומחה"
+        }
+    }
+}

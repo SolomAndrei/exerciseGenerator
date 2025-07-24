@@ -1,0 +1,36 @@
+Frontend Project Description
+
+The project is a system for generating question blocks of varying difficulty based on a given topic and subtopic, with the ability to regenerate a specific question. State management is handled by a custom React hook useExercisesStorage, which synchronizes data with the browser's localStorage, allowing the state to persist across sessions and tabs. This provides a single source of truth and enables the hook to be used across different components.
+
+Architecture and Structure:
+React with TypeScript, using functional components and hooks for UI and logic.
+State and Storage: The custom hook useExercisesStorage serves as the main source of truth, working with localStorage and listening to the storage event to update data across multiple tabs.
+
+Asynchronous Operations: Management of question update requests is done via react-query.
+
+Internationalization: Implemented using i18next.
+
+Separation of Concerns:
+Business logic and storage handling are fully encapsulated within the custom hook.
+UI components receive data and callbacks from the hook, ensuring clean and modular code.
+
+Potential Directions for Improvement:
+Migration to a more scalable storage solution (e.g., IndexedDB).
+Implementation of centralized state management (Redux, Zustand, etc.).
+Introduction of server-side authorization and synchronization through an API.
+Enhanced error handling and data validation.
+Automatic saving and restoration of user progress.
+
+Backend Project Description
+Backend service for generating and managing educational exercises using the OpenAI GPT API.
+Implemented with Node.js, TypeScript, and Express.
+
+Description
+This service accepts topics and subtopics, generates educational questions of different difficulty levels (Beginner, Intermediate, Expert) using OpenAI, and provides a REST API for interaction with client applications.
+
+Key Features
+Input data validation using zod.
+Exercise generation through the OpenAI API.
+Error handling with centralized middleware.
+Request rate limiting.
+Cross-Origin Resource Sharing (CORS) support.

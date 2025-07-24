@@ -1,0 +1,53 @@
+{
+    "header": {
+        "logo": "Exercise Generator",
+        "langEn": "EN",
+        "langHe": "HE"
+    },
+    "footer": {
+        "text": "© 2025 Exercise Generator by Andrei"
+    },
+    "form": {
+        "topicLabel": "Topic",
+        "subtopicLabel": "Subtopic",
+        "generateBtn": "Generate Exercises",
+        "clearCacheBtn": "Delete current test",
+        "topicPlaceholder": "Enter topic",
+        "subtopicPlaceholder": "Enter subtopic",
+        "dataReceived": "Data received",
+        "pressStartTestBtn": "Press the 'Start Test' button"
+    },
+    "navigation": {
+        "formTab": "Form",
+        "startTestBtn": "Start Test",
+        "history": "History",
+        "stats": "Stats"
+    },
+    "test": {
+        "regenerate": "Regenerate",
+        "noExercisesMessage": "No exercises data. Please generate exercises first.",
+        "questionProgress": "Question {{current}} of {{total}}",
+        "next": "Next",
+        "prev": "Previous",
+        "explanationLabel": "Explanation:",
+        "difficulty": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "expert": "Expert"
+        }
+    },
+    "history": {
+        "title": "Past Attempts",
+        "noGenerations": "No past attempts found."
+    },
+    "statistics": {
+        "generatedOn": "Generated on",
+        "completion": "Completed",
+        "accuracy": "Correct",
+        "levelNames": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "expert": "Expert"
+        }
+    }
+}
